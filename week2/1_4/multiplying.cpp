@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(){
+    double n1, n2, product;
+
+    std::cout << "Please enter the first number:" << std::endl;
+    std::cin >> n1;
+
+    std::cout << "Please enter the seccond number:" << std::endl;
+    std::cin >> n2;
+
+    product = n1 * n2;
+
+    std::cout << n1 << " * " << n2 << " = " << product << std::endl;
+
+}
